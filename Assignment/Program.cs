@@ -55,6 +55,11 @@
             return value;
         }
 
+        /// <summary>
+        /// Read input and convert to integer value, if value format cannot convert, prompt it until input value is correct
+        /// </summary>
+        /// <input> none
+        /// <returns> integer
         private static int readNumber()
         {
             int number = 0;
